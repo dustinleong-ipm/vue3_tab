@@ -36,7 +36,7 @@ export default defineComponent({
     const dog='dog'
     const optionsData = ref(props.options)
     const resolvedOptions =ref({})
-    
+    console.log('data phrase')
 
     console.log('data phrase')
     console.log(optionsData)

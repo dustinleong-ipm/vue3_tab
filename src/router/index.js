@@ -25,6 +25,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Showing.vue"),
   },
+  
 ];
 
 const router = createRouter({

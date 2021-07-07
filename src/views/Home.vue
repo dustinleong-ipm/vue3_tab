@@ -14,5 +14,11 @@ export default {
   components: {
     HelloWorld,
   },
+  
+  data(){
+    console.log('home.vue')
+    return {}
+  }
+
 };
 </script>
